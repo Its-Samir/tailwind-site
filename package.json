@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "vite",
+    "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "vite": "^3.0.2"
+  }
+}
